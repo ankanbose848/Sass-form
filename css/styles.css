@@ -1,0 +1,113 @@
+@import url("https://fonts.googleapis.com/css2?family=Heebo&family=Roboto&display=swap");
+body {
+  font-family: "Heebo", sans-serif;
+}
+
+.pageHeading {
+  text-align: center;
+  font-size: 4rem;
+}
+@media screen and (max-width: 670px) {
+  .pageHeading {
+    font-size: 3.5rem;
+  }
+}
+
+.main-container {
+  margin: 0 10%;
+}
+
+.main-section {
+  margin-top: 15px;
+  padding: 10px;
+  display: flex;
+}
+@media screen and (max-width: 670px) {
+  .main-section {
+    flex-direction: column;
+  }
+}
+
+.left-section {
+  width: 50%;
+}
+.left-section img {
+  width: 100%;
+}
+.left-section h3 {
+  padding: 10px 0px;
+  font-size: 2rem;
+}
+.left-section p {
+  font-size: 18px;
+  color: #797A7E;
+}
+@media screen and (max-width: 670px) {
+  .left-section {
+    width: 100%;
+  }
+}
+
+.right-section {
+  width: 50%;
+  text-align: center;
+}
+@media screen and (max-width: 670px) {
+  .right-section {
+    width: 100%;
+  }
+}
+
+.contact-form {
+  margin-top: 10%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 10% 10%;
+}
+.contact-form .input-field {
+  margin: 5% 10%;
+  width: 90%;
+  width: 100%;
+  font-size: 2rem;
+  border: none;
+  border-bottom: 3px solid #797A7E;
+}
+.contact-form .input-field:focus {
+  outline: none;
+  border: none;
+  border-bottom: 3px solid #28DF99;
+  border-radius: 10px;
+  transition: all 0.2s ease-in;
+  padding: 10px;
+}
+@media screen and (max-width: 670px) {
+  .contact-form .input-field {
+    font-size: 1.5rem;
+    margin: 10% 0%;
+    width: 100%;
+    padding: 5px;
+  }
+}
+
+.btn {
+  width: 150px;
+  height: 50px;
+  outline: none;
+  border: none;
+  border-radius: 10px;
+  background-color: #28DF99;
+  font-size: 20px;
+  font-weight: bolder;
+}
+.btn:hover {
+  background-color: #0e6041;
+  color: white;
+  transition: all 0.3s ease-in-out;
+}
+@media screen and (max-width: 670px) {
+  .btn {
+    width: 100%;
+  }
+}
